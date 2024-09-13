@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "calcolatrice_finta",
+    "name": "calcolatrice finta",
     "slug": "calcolatrice_finta",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +18,22 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode":2,
+      "targetSdkVersion": 34,
+      "compileSdkVersion": 34,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gius3ppe.calcolatrice_finta"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f30e81c-78db-465d-b885-78631d4984e8"
+      }
     }
   }
 }
