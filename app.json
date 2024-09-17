@@ -1,5 +1,20 @@
 {
   "expo": {
+    "plugins":[
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.4"
+          }
+        }
+      ]
+    ],
     "name": "calcolatrice finta",
     "slug": "calcolatrice_finta",
     "version": "1.0.0",
@@ -18,9 +33,7 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode":2,
-      "targetSdkVersion": 34,
-      "compileSdkVersion": 34,
+      "versionCode":3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
